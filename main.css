@@ -22,19 +22,28 @@
     transition: all 3s ease-in-out;
 }
 
-.btn::after {
-    background-image: url("../repositorio-css-animaciones-transiciones/imagenes/casa.png");
-    font-size: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 .btn:hover::before {
     top: -1px;
 }
 
+
+.div-2 {
+    background: #55828f;
+    /* width: 200px;
+    height: 200px;
+    margin: 20px; */
+}
+
+.div-2:hover {
+    background: #75afbe;
+    transition: background-color 2s;
+}
+
+
+.div-may:hover{
+    clip-path: circle(60% at center);
+}
 
 body {
     background-color: #d7d7d8;
